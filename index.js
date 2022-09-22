@@ -15,3 +15,7 @@ class MenuItemPriceCalculator {
         return this.purchaseTotal ();
     }
 };
+
+let menu1 = new MenuItemPriceCalculator (4, 6);
+
+console.log (menu1.totalPrice);
