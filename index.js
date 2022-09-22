@@ -2,10 +2,14 @@
  * PRICE CALCULATOR
  */
 class MenuItemPriceCalculator {
-    #lapton_price;
-    #phone_price;
-    constructor (lapton_price, phone_price) {
-        this.#lapton_price = lapton_price;
-        this.#phone_price = phone_price
+    #lapton_price = 700;
+    #phone_price = 500;
+    constructor (laptop, phone) {
+        this.laptop = laptop;
+        this.phone  = phone;
     }
+    purchaseTotal () {
+        
+    }
+
 };
